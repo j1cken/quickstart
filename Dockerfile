@@ -1,2 +1,2 @@
 FROM jboss/wildfly
-ADD kitchensink-ear/wildfly-kitchensink-ear-ear/target/wildfly-kitchensink-ear-ear.ear /opt/wildfly/standalone/deployments/kitchensink.ear
+ADD kitchensink-angularjs/target/wildfly-kitchensink-angularjs.war /opt/wildfly/standalone/deployments/kitchensink.war
